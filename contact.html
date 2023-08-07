@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thru.</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Outfit:wght@700&display=swap" rel="stylesheet">
+    <!--CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <!--Adds brand logo and navigation bar-->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/index.html">
+<img src="images/logo1.png" alt="Logo" width="300" height="90" class="d-inline-block align-text-top">
+    </a>
+<ul class="nav justify-content-start">
+  <li class="nav-item">
+    <a class="nav-link" href="/index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/about.html">About Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/solutions.html">Services</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/contact.html">Contact</a>
+  </li>
+</ul>
+</div>
+</nav>
+
+</header>
+
+<!-- adds forms and map -->
+
+<section id="contact" class="contact">
+  <div class="container">
+
+    <div class="row gy-4">
+      <div class="col-lg-6">
+        <div class="info-item  d-flex flex-column justify-content-center align-items-center">
+          <h3 class="title-about"> Our Address</h3>
+          <p class="text-about">1385 Woodroffe Ave, Nepean, ON K2G 1V8</p>
+        </div>
+      </div><!-- End Info Item -->
+
+      <div class="col-lg-3 col-md-6">
+        <div class="info-item d-flex flex-column justify-content-center align-items-center">
+          <h3 class="title-about">Email Us</h3>
+          <p class="text-about">yarc0001@algonquinlive.com</p>
+        </div>
+      </div><!-- End Info Item -->
+
+      <div class="col-lg-3 col-md-6">
+        <div class="info-item  d-flex flex-column justify-content-center align-items-center">
+          <h3 class="title-about">Call Us</h3>
+          <p class="text-about">+1 899 000 890</p>
+        </div>
+      </div><!-- End Info Item -->
+
+    </div>
+
+    <div class="row gy-4 mt-1">
+
+      <div class="col-lg-6 ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944456596002!2d-75.75750598791205!3d45.34993347095167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1691181630044!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div><!-- End Google Maps -->
+      <div class="col-lg-6">
+        <form action="forms/contact.php" method="post" class="php-email-form">
+          <div class="row gy-4">
+            <div class="col-lg-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+            </div>
+            <div class="col-lg-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+          </div>
+      
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div><!-- End Contact Form -->
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item">
+      <a class="nav-link" href="/index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about.html">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/solutions.html">Services</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/contact.html">Contact</a>
+    </li>
+  </ul>
+  <p class="text-center text-body-secondary">All Right Reserved ©2023 Thru by Mateo.</p>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
