@@ -14,6 +14,7 @@
 </head>
 <body>
   <header>
+
     <!--Adds brand logo and navigation bar-->
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
@@ -39,11 +40,15 @@
 
 </header>
 
-<!-- adds forms and map -->
+
+
+<!-- adds general contact info -->
 
 <section id="contact" class="contact">
   <div class="container">
-
+    <div class="section-header">
+      <h1>Contact Us</h1>
+    </div>
     <div class="row gy-4">
       <div class="col-lg-6">
         <div class="info-item  d-flex flex-column justify-content-center align-items-center">
@@ -68,49 +73,42 @@
 
     </div>
 
-    <div class="row gy-4 mt-1">
+    <!-- adds form -->
 
-      <div class="col-lg-6 ">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9444565960025!2d-75.75750598791201!3d45.34993347095166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1691454963885!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      <div class="col-lg-6">
-        <form action="forms/contact.php" method="post" class="php-email-form">
-          <div class="row gy-4">
-            <div class="col-lg-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-            </div>
-            <div class="col-lg-6 form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-            </div>
+    <div class="col-lg-12 aos-init aos-animate">
+      <form action="forms/contact.php" method="post" class="php-email-form">
+        <div class="row">
+          <div class="col-lg-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
           </div>
-          <div class="form-group">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+          <div class="col-lg-6 form-group">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
           </div>
-          <div class="form-group">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
-          </div>
-      
-          <div class="text-center"><button type="submit">Send Message</button></div>
-        </form>
-      </div><!-- End Contact Form -->
-
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
     </div>
 
-  </div>
-</section>
-
 <!-- Footer -->
-<footer class="py-3 my-4">
+<footer>
   <ul class="nav justify-content-center border-bottom pb-3 mb-3">
     <li class="nav-item">
-      <a class="nav-link" href="/index.html">Home</a>
+      <a class="nav-link" href="index.html">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/about.html">About Me</a>
+      <a class="nav-link" href="about.html">About Us</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/solutions.html">Services</a>
+      <a class="nav-link" href="services.html">Services</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/contact.html">Contact</a>
+      <a class="nav-link" href="contact.html">Contact</a>
     </li>
   </ul>
   <p class="text-center text-body-secondary">All Right Reserved ©2023 Thru by Mateo.</p>
